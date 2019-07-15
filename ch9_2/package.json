@@ -1,0 +1,15 @@
+{
+  "name": "ch9_2",
+  "version": "1.0.0",
+  "description": "Web and Mobile Technology",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pongsarun Boonyopakorn",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.17.1"
+  }
+}
