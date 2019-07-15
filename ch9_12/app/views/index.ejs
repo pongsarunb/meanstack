@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+</head>
+<body>
+    <% if ( userFullName ) { %>
+        <h2>Hello <%=userFullName%> </h2>
+        <a href="/signout">Sign out</a>
+    <% } else { %>
+        <h4>
+            <a href="/signup">Signup</a> | 
+            <a href="/signin">Signin</a>
+        </h4>
+    <% } %>
+    <br>
+    <br>
+    <img src="img/iron_man.jpg" alt="Iron Man">
+</body>
+</html>
